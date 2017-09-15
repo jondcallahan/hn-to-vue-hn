@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Open in Vue-HN",
+  "description": "Open the current page in vue-hn.now.sh",
+  "version": "1.0",
+  "icons": {
+    "16": "vue-hn.16.png",
+    "48": "vue-hn.48.png",
+    "96": "vue-hn.96.png",
+    "192": "vue-hn.192.png"
+  },
+
+  "background": { "scripts": ["index.js"] },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://news.ycombinator.com/*",
+    "https://news.ycombinator.com/*"
+  ]
+}
